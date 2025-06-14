@@ -1,10 +1,8 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import { ContactForm } from "@/components/ContactForm";
 import { Mail, Github, Linkedin, ExternalLink, Heart, Sparkles, Code, Palette, MessageCircle } from "lucide-react";
 
 const Index = () => {
@@ -303,28 +301,7 @@ const Index = () => {
               </div>
             </div>
             
-            <Card className="border-pink-200 bg-pink-50/90 backdrop-blur-sm">
-              <CardContent className="p-6">
-                <form className="space-y-4">
-                  <div>
-                    <label className="block text-sm font-medium text-pink-900 mb-2">Name</label>
-                    <Input className="border-pink-300 focus:border-pink-500 bg-pink-50" placeholder="Your name" />
-                  </div>
-                  <div>
-                    <label className="block text-sm font-medium text-pink-900 mb-2">Email</label>
-                    <Input type="email" className="border-pink-300 focus:border-pink-500 bg-pink-50" placeholder="your.email@example.com" />
-                  </div>
-                  <div>
-                    <label className="block text-sm font-medium text-pink-900 mb-2">Message</label>
-                    <Textarea className="border-pink-300 focus:border-pink-500 min-h-32 bg-pink-50" placeholder="Tell me about your project..." />
-                  </div>
-                  <Button className="w-full bg-pink-500 hover:bg-pink-600 text-white py-3 rounded-lg font-medium shadow-lg hover:shadow-xl transition-all duration-300">
-                    <Heart className="w-5 h-5 mr-2" />
-                    Send Message
-                  </Button>
-                </form>
-              </CardContent>
-            </Card>
+            <ContactForm />
           </div>
         </div>
       </section>
