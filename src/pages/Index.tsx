@@ -128,7 +128,7 @@ const Index = () => {
               <div className="w-80 h-80 bg-gradient-to-br from-pink-300 to-pink-400 rounded-full mx-auto shadow-2xl p-4">
                 <Avatar className="w-full h-full">
                   <AvatarImage 
-                    src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+                    src="/lovable-uploads/849f0f91-b9a8-490d-b105-a8a7ec540e15.png"
                     alt="Priya Sharma"
                     className="object-cover"
                   />
