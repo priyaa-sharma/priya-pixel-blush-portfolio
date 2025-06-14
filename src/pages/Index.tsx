@@ -259,10 +259,10 @@ const Index = () => {
                   <div>
                     <p className="text-pink-900 font-medium">Email</p>
                     <a 
-                      href="mailto:priya.sharma@email.com" 
+                      href="mailto:priya.sharma6927@gmail.com" 
                       className="text-pink-700 hover:text-pink-900 hover:underline transition-colors"
                     >
-                      priya.sharma@email.com
+                      priya.sharma6927@gmail.com
                     </a>
                   </div>
                 </div>
@@ -274,12 +274,12 @@ const Index = () => {
                   <div>
                     <p className="text-pink-900 font-medium">LinkedIn</p>
                     <a 
-                      href="https://linkedin.com/in/priyasharma" 
+                      href="https://www.linkedin.com/in/priya-sharma6927/" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-pink-700 hover:text-pink-900 hover:underline transition-colors"
                     >
-                      linkedin.com/in/priyasharma
+                      linkedin.com/in/priya-sharma6927
                     </a>
                   </div>
                 </div>
@@ -291,12 +291,12 @@ const Index = () => {
                   <div>
                     <p className="text-pink-900 font-medium">GitHub</p>
                     <a 
-                      href="https://github.com/priyasharma" 
+                      href="https://github.com/priyaa-sharma" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-pink-700 hover:text-pink-900 hover:underline transition-colors"
                     >
-                      github.com/priyasharma
+                      github.com/priyaa-sharma
                     </a>
                   </div>
                 </div>
@@ -339,13 +339,13 @@ const Index = () => {
           
           <div className="flex justify-center space-x-6 mb-8">
             <a 
-              href="mailto:priya.sharma@email.com" 
+              href="mailto:priya.sharma6927@gmail.com" 
               className="w-12 h-12 bg-pink-50 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110"
             >
               <Mail className="w-6 h-6 text-pink-700" />
             </a>
             <a 
-              href="https://linkedin.com/in/priyasharma" 
+              href="https://www.linkedin.com/in/priya-sharma6927/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-12 h-12 bg-pink-50 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110"
@@ -353,7 +353,7 @@ const Index = () => {
               <Linkedin className="w-6 h-6 text-pink-700" />
             </a>
             <a 
-              href="https://github.com/priyasharma" 
+              href="https://github.com/priyaa-sharma" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-12 h-12 bg-pink-50 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110"
