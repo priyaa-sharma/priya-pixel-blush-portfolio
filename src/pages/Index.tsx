@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Mail, Github, Linkedin, ExternalLink, Heart, Sparkles, Code, Palette, MessageCircle } from "lucide-react";
 
 const Index = () => {
@@ -124,10 +125,17 @@ const Index = () => {
             </div>
             
             <div className="relative">
-              <div className="w-80 h-80 bg-gradient-to-br from-pink-300 to-pink-400 rounded-full mx-auto shadow-2xl">
-                <div className="absolute inset-4 bg-pink-50 rounded-full flex items-center justify-center">
-                  <span className="text-6xl">👩‍💻</span>
-                </div>
+              <div className="w-80 h-80 bg-gradient-to-br from-pink-300 to-pink-400 rounded-full mx-auto shadow-2xl p-4">
+                <Avatar className="w-full h-full">
+                  <AvatarImage 
+                    src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+                    alt="Priya Sharma"
+                    className="object-cover"
+                  />
+                  <AvatarFallback className="bg-pink-50 text-pink-800 text-6xl font-bold">
+                    PS
+                  </AvatarFallback>
+                </Avatar>
               </div>
             </div>
           </div>
